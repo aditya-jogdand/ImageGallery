@@ -1,0 +1,82 @@
+{
+  "images": [
+    {
+      "title": "Fox",
+      "author": "Aditya",
+      "hashtag": "#fox",
+      "link": "https://unsplash.com/photos/xUUZcpQlqpM/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8Mnx8YW5pbWFsfGVufDB8fHx8MTY0NTUyNDMwMA&force=true",
+      "category": "animal",
+      "id": 1
+    },
+    {
+      "title": "Racoon",
+      "author": "Rahul C",
+      "hashtag": "#racoon #wildlife",
+      "link": "https://unsplash.com/photos/6GMq7AGxNbE/download?force=true",
+      "category": "animal",
+      "id": 2
+    },
+    {
+      "title": "Hamster",
+      "author": "Purnesh",
+      "hashtag": "#hamster #cute",
+      "link": "https://unsplash.com/photos/adK3Vu70DEQ/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTF8fGFuaW1hbHxlbnwwfHx8fDE2NDU1MjQzMDA&force=true",
+      "category": "animal",
+      "id": 3
+    },
+    {
+      "title": "Bird",
+      "author": "Aditi",
+      "hashtag": "#bird",
+      "link": "https://unsplash.com/photos/RLLR0oRz16Y/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OHx8YmlyZHN8ZW58MHx8fHwxNjQ1NDc1OTA3&force=true",
+      "category": "bird",
+      "id": 4
+    },
+    {
+      "title": "Bird1",
+      "author": "Aditya",
+      "hashtag": "#bird",
+      "link": "https://unsplash.com/photos/DPXytK8Z59Y/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTV8fGJpcmRzfGVufDB8fHx8MTY0NTQ3NTkwNw&force=true",
+      "category": "bird",
+      "id": 5
+    },
+    {
+      "title": "Food",
+      "author": "Rahul M",
+      "hashtag": "#Food",
+      "link": "https://unsplash.com/photos/IGfIGP5ONV0/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OHx8Zm9vZHxlbnwwfHx8fDE2NDU1Mjk2NjY&force=true",
+      "category": "food",
+      "id": 6
+    },
+    {
+      "title": "Flower",
+      "author": "Aditya",
+      "hashtag": "#flower",
+      "link": "https://unsplash.com/photos/EfhCUc_fjrU/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8OHx8Zmxvd2VyfGVufDB8fHx8MTY0NTU4ODQ0Nw&force=true",
+      "category": "flower",
+      "id": 8
+    },
+    {
+      "title": "White Flower",
+      "author": "Purnesh",
+      "hashtag": "#flower",
+      "link": "https://unsplash.com/photos/BlMj6RYy3c0/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTV8fGZsb3dlcnxlbnwwfHx8fDE2NDU1ODg0NDc&force=true",
+      "category": "flower",
+      "id": 9
+    }
+  ],
+  "users": [
+    {
+      "name": "asd",
+      "email": "asd",
+      "password": "asd",
+      "id": 1
+    },
+    {
+      "name": "asdasd",
+      "email": "asdasdasd",
+      "password": "asd",
+      "id": 2
+    }
+  ]
+}

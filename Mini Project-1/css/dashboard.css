@@ -1,0 +1,52 @@
+html,
+body {
+  height: 100%;
+}
+
+.dashboard {
+  max-width: 800px;
+  padding: 15px;
+  margin: auto;
+}
+
+.album{
+  background: linear-gradient(0.5turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+form{
+    border: 2px solid;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+}
+
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+svg{
+  margin-left: 2rem;
+}
+
+@media (max-width: 768px) {
+.container-fluid{
+  justify-content: center;
+}
+}
+
+@media all and (min-width: 992px) {
+.navbar .nav-item .dropdown-menu{ display: none; }
+.navbar .nav-item:hover .dropdown-menu{ display: block; }
+.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	

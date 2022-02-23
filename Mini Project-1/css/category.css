@@ -1,0 +1,78 @@
+html,
+body {
+  height: 100%;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.album{
+
+    background: linear-gradient(0.5turn, #3f87a6, #ebf8e1, #f69d3c);
+}
+
+
+
+
+.card{
+    border: skyblue;
+max-width: 400px;
+transition: all 0.3s ease;
+cursor: pointer;
+user-select: none;
+z-index: 10;
+overflow: hidden
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+  
+  svg{
+    margin-left: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+  .container-fluid{
+    justify-content: center;
+  }
+  }
+  
+  @media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu{ display: none; }
+  .navbar .nav-item:hover .dropdown-menu{ display: block; }
+  .navbar .nav-item .dropdown-menu{ margin-top:0; }
+  }	
+
+  .card:hover {
+    transform: scale(1.025);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .categoryText{
+      font-size: xx-large;
+      text-decoration: none;
+      color: white;
+  }
+
+  .categoryText:hover{
+      color: deepskyblue;
+  }
