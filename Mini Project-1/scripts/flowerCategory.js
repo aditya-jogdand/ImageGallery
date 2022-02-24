@@ -1,18 +1,12 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const imageContainer = document.querySelector("#imageContainer");
-    const imgURL = `http://localhost:3000/images`;
-    const imgForm = document.querySelector("#img-form");//for upload image page use form class as img-form
-  
-    // const download = document.querySelector("#download");
-  
-    fetch(`${imgURL}`)
-      .then((response) => response.json())
-      .then((imgData) =>
-       imgData.slice().reverse().forEach(function (img) {
+document.addEventListener('DOMContentLoaded', function () {
+  const imageContainer = document.querySelector('#imageContainer')
+  const imgURL = 'http://localhost:3000/images'
 
-            if(`${img.category}`==="flower"){
-  
-          
+  fetch(`${imgURL}`)
+    .then((response) => response.json())
+    .then((imgData) =>
+      imgData.slice().reverse().forEach(function (img) {
+        if (`${img.category}` === 'flower') {
           imageContainer.innerHTML += `<div class="card shadow-sm">
             <img src="${img.link}" id=${img.id} class="modal-content" class="bd-placeholder-img card-img-top" width="100%" height="225">
   
@@ -29,17 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
                     </div>
                 </div>
             </div>
-        </div>`;
-            }
-
-         
-  
-        })
-      );
-  });
-  
-  
-  
-  
-  
-  
+        </div>`
+        }
+      })
+    )
+})

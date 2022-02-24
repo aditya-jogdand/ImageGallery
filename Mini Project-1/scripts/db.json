@@ -63,6 +63,14 @@
       "link": "https://unsplash.com/photos/BlMj6RYy3c0/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTV8fGZsb3dlcnxlbnwwfHx8fDE2NDU1ODg0NDc&force=true",
       "category": "flower",
       "id": 9
+    },
+    {
+      "title": "ImageDemo",
+      "author": "Purnesh",
+      "hashtag": "#image",
+      "link": "https://unsplash.com/photos/IFxjDdqK_0U/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8NDJ8fGFuaW1hbHxlbnwwfHx8fDE2NDU2NzU4NTk&force=true",
+      "category": "animal",
+      "id": 10
     }
   ],
   "users": [
@@ -77,6 +85,18 @@
       "email": "asdasdasd",
       "password": "asd",
       "id": 2
+    },
+    {
+      "name": "Aditya",
+      "email": "aaditya@gmail.com",
+      "password": "12345asd",
+      "id": 3
+    },
+    {
+      "name": "venkat",
+      "email": "venkat@gmail.com",
+      "password": "1234",
+      "id": 4
     }
   ]
 }

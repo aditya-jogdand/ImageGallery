@@ -3,27 +3,25 @@ body {
   height: 100%;
 }
 
-.album{
+.album {
   background: linear-gradient(0.5turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
-.card{
-  float: left;  
+.card {
+  float: left;
   padding: 5px;
-  margin-left: 3rem;
-  margin-top: 2rem;
+  margin: 2rem;
   transition: all 0.3s ease;
   cursor: pointer;
   user-select: none;
   z-index: 10;
-  overflow: hidden
+  overflow: hidden;
 }
 
 .card:hover {
   transform: scale(1.025);
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 5px 10px;
 }
-
 
 .dashboard {
   max-width: 800px;
@@ -31,13 +29,12 @@ body {
   margin: auto;
 }
 
-form{
-    border: 2px solid;
-    margin: 2rem;
-    padding: 2rem;
-    border-radius: 5px;
+form {
+  border: 2px solid;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
 }
-
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -53,30 +50,24 @@ form{
   }
 }
 
-svg{
+svg {
   margin-left: 2rem;
 }
 
 @media (max-width: 768px) {
-.container-fluid{
-  justify-content: center;
-}
+  .container-fluid {
+    justify-content: center;
+  }
 }
 
 @media all and (min-width: 992px) {
-.navbar .nav-item .dropdown-menu{ display: none; }
-.navbar .nav-item:hover .dropdown-menu{ display: block; }
-.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	
-
-
-
-
-
-
-
-
-
-
-
-
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}

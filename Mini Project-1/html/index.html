@@ -17,22 +17,6 @@
 </head>
 
 <body>
-    <!-- <header class="d-flex flex-wrap justify-content-center py-3 mb-4">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
-            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="none" stroke="currentColor"
-                stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
-                viewBox="0 0 24 24">
-                <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-                <circle cx="12" cy="13" r="4" />
-            </svg>
-            <Strong>Mi Gallery</Strong>
-        </a>
-
-        <ul class="nav nav-pills mx-auto">
-            <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Categories</a></li>            
-            <li class="nav-item"><a href="#" class="nav-link">Sign In</a></li>
-        </ul> -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
@@ -50,23 +34,23 @@
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-               
+
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="nav nav-pills mx-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../html/index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../html/categories.html">Categories</a>
-                    </li>
-                    <li class="nav-item" id="11">
-                        <a class="nav-link" href="../html/dashboard.html">Dashboard</a>
-                    </li>
-                    <li class="nav-item" id="22">
-                        <a class="nav-link" href="../html/login.html">Sign In</a>
-                    </li>
-                </ul>
-            </div>
+                    <ul class="nav nav-pills mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../html/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/categories.html">Categories</a>
+                        </li>
+                        <li class="nav-item" id="11">
+                            <a class="nav-link" href="../html/dashboard.html">Dashboard</a>
+                        </li>
+                        <li class="nav-item" id="22">
+                            <a class="nav-link" href="../html/login.html">Sign In</a>
+                        </li>
+                    </ul>
+                </div>
 
 
             </div>
@@ -85,7 +69,7 @@
             </div>
         </section>
 
-            
+
         <!-- image cards container -->
         <div class="album py-5 bg-info">
             <div class="container">
@@ -93,6 +77,19 @@
                     <div class="col" id='images'>
                         <div id='imageContainer'>
                         </div>
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                              <div class="modal-content">
+                          
+                                <div  class="modal-body">
+                                  
+                                        <img id="popupImageBox" width="500px" height="500px"> <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                   
+                                    
+                                </div>
+                               
+                              </div>
+                            </div>
                     </div>
                 </div>
             </div>
@@ -110,6 +107,7 @@
     </footer>
 
     <script src="../scripts/getImage.js"></script>
+    <script src="../scripts/imagePopup.js"></script>
     <script src="../scripts/login.js"></script>
 
 </body>

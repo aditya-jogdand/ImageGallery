@@ -9,17 +9,16 @@ body {
   margin: auto;
 }
 
-.album{
+.album {
   background: linear-gradient(0.5turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
-form{
-    border: 2px solid;
-    margin: 2rem;
-    padding: 2rem;
-    border-radius: 5px;
+form {
+  border: 2px solid;
+  margin: 2rem;
+  padding: 2rem;
+  border-radius: 5px;
 }
-
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -35,18 +34,24 @@ form{
   }
 }
 
-svg{
+svg {
   margin-left: 2rem;
 }
 
 @media (max-width: 768px) {
-.container-fluid{
-  justify-content: center;
-}
+  .container-fluid {
+    justify-content: center;
+  }
 }
 
 @media all and (min-width: 992px) {
-.navbar .nav-item .dropdown-menu{ display: none; }
-.navbar .nav-item:hover .dropdown-menu{ display: block; }
-.navbar .nav-item .dropdown-menu{ margin-top:0; }
-}	
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+  }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block;
+  }
+  .navbar .nav-item .dropdown-menu {
+    margin-top: 0;
+  }
+}
