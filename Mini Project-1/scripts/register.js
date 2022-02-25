@@ -34,7 +34,7 @@ $(document).ready(
             },
             dataType: 'json',
             success: (x) => {
-              window.location = '../HTML/login.html'
+              window.location = '../html/signIn.html'
               alert(name + ' Successfully Registered !')
               console.log(x)
             },

@@ -57,7 +57,7 @@
       "id": 8
     },
     {
-      "title": "White Flower",
+      "title": "WhiteFlower",
       "author": "Purnesh",
       "hashtag": "#flower",
       "link": "https://unsplash.com/photos/BlMj6RYy3c0/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MTV8fGZsb3dlcnxlbnwwfHx8fDE2NDU1ODg0NDc&force=true",
@@ -97,6 +97,12 @@
       "email": "venkat@gmail.com",
       "password": "1234",
       "id": 4
+    },
+    {
+      "name": "purnesh",
+      "email": "purnesh@gmail.com",
+      "password": "1234",
+      "id": 5
     }
   ]
 }

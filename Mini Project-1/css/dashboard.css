@@ -2,6 +2,28 @@ html,
 body {
   height: 100%;
 }
+ 
+.card{
+  background-color: #ffffff00;
+  
+}
+
+h1{
+  color: #3482a3;
+}
+
+label{
+  color: #3f87a6;
+}
+
+.btn {
+  background-color: #3f87a67c;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #2ca7db49;
+}
 
 .dashboard {
   max-width: 800px;
