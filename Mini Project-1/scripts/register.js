@@ -12,17 +12,7 @@ $(document).ready(
         console.log(password)
         console.log(confpassword)
 
-        if (name == '') {
-          alert('Enter name filed')
-        } else if (email == '') {
-          alert('Enter email filed')
-        } else if (password == '') {
-          alert('Enter password filed')
-        } else if (confpassword == '') {
-          alert('Enter confirm password filed')
-        } else if (confpassword != password) {
-          alert('Password & confirm password not matched')
-        } else {
+        if(name.length!=0 && email.length!=0 && password.length!=0 && confpassword!=0 && password==confpassword){
           // register new user
           $.ajax({
             url: ' http://localhost:3000/users',
@@ -42,11 +32,12 @@ $(document).ready(
               alert('Error: ' + err)
             }
           })
-          // } else {
-          //   alert('Password does not match')
-          // }
         }
-      }
+           else {
+          alert('Please fill all fields')
+          }
+        }
+      
 
     )
   })

@@ -5,7 +5,8 @@ $(document).ready(() => {
   $('button').click(() => {
     const email = $('input[type="email"]').val()
     const password = $('input[type="password"]').val()
-    if (email == '' && password == '') {
+
+    if (email == '' && password == '' || email==''||password=='') {
       alert('Username and Password not entered')
     } else {
       $.ajax({
@@ -16,20 +17,27 @@ $(document).ready(() => {
           password: password
         },
         dataType: 'json',
-        success: (x) => {
-          for (i = 0; i < x.length; i++) {
-            if (email == 'admin@gmail.com' && password == 'admin') {
-              alert(email + ' Successfully Login !')
-              console.log(x)
-              window.location = './dashboard.html'
-            } else if (email == x[i].email && password == x[i].password) {
-              alert(email + ' Successfully Login !')
-              console.log(x)
-              window.location = './dashboard.html'
-            } else {
-              alert('Wrong Username or password')
+        success: (users) => {
+          var flag=0
+          users.forEach(user=>{
+            if(email == user.email && password == user.password){
+              flag=1;
             }
-          }
+          })
+if(flag == 1){
+  alert('Login Successful!')
+  window.location = './dashboard.html'
+sessionStorage.setItem("email",email)
+sessionStorage.setItem("password",password)
+
+
+
+
+}
+else{
+  alert('invalid credentials')
+}
+       
         },
         error: (err) => {
           alert('Error: ' + err)

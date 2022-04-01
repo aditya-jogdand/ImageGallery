@@ -103,6 +103,12 @@
       "email": "purnesh@gmail.com",
       "password": "1234",
       "id": 5
+    },
+    {
+      "name": "asd",
+      "email": "asd",
+      "password": "asd",
+      "id": 6
     }
   ]
 }
